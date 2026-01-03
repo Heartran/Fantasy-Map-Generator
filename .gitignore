@@ -1,6 +1,9 @@
+# Ignore IDE and build folders
 .vscode
 .idea
 /node_modules
 /mcp-server/node_modules
 /dist
 /coverage
+# AI Agents Repository Rules and Documentation
+AGENTS.MD
