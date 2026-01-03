@@ -23,7 +23,7 @@ export async function runHttpTransport({host = "127.0.0.1", port = 3333, serverF
       res.status(404).send("Unknown sessionId");
       return;
     }
-    await transport.handlePostMessage(req, res);
+    await transport.handlePostMessage(req, res, req.body);
   });
 
   await new Promise(resolve => {
