@@ -27,3 +27,8 @@ _Inspiration:_
 - Amit Patel's [_Polygonal Map Generation for Games_](http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation)
 
 - Scott Turner's [_Here Dragons Abound_](https://heredragonsabound.blogspot.com)
+
+## MCP server (local)
+
+This fork includes an experimental Model Context Protocol server under `mcp-server/`.
+See `mcp-server/README.md`.

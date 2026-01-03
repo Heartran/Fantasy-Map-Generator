@@ -1,5 +1,6 @@
 .vscode
 .idea
 /node_modules
+/mcp-server/node_modules
 /dist
 /coverage

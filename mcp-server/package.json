@@ -1,0 +1,16 @@
+{
+  "name": "fantasy-map-generator-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "mcp:stdio": "node src/cli.js --transport stdio",
+    "mcp:http": "node src/cli.js --transport http --host 127.0.0.1 --port 3333"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "express": "^4.19.2",
+    "playwright": "^1.49.0"
+  }
+}
+
